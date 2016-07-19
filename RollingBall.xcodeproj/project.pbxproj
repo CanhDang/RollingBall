@@ -12,6 +12,8 @@
 		7E3909DD1D3DCF0300074411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3909DB1D3DCF0300074411 /* Main.storyboard */; };
 		7E3909DF1D3DCF0300074411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3909DE1D3DCF0300074411 /* Assets.xcassets */; };
 		7E3909E21D3DCF0300074411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3909E01D3DCF0300074411 /* LaunchScreen.storyboard */; };
+		7E3909EB1D3DD2E200074411 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3909EA1D3DD2E200074411 /* ball.png */; };
+		7E3909ED1D3E0D5A00074411 /* grass_yard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3909EC1D3E0D5A00074411 /* grass_yard.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7E3909DE1D3DCF0300074411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E3909E11D3DCF0300074411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E3909E31D3DCF0300074411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3909EA1D3DD2E200074411 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		7E3909EC1D3E0D5A00074411 /* grass_yard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass_yard.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		7E3909D61D3DCF0300074411 /* RollingBall */ = {
 			isa = PBXGroup;
 			children = (
+				7E3909E91D3DD2D800074411 /* Images */,
 				7E3909D71D3DCF0300074411 /* AppDelegate.swift */,
 				7E3909D91D3DCF0300074411 /* ViewController.swift */,
 				7E3909DB1D3DCF0300074411 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				7E3909E31D3DCF0300074411 /* Info.plist */,
 			);
 			path = RollingBall;
+			sourceTree = "<group>";
+		};
+		7E3909E91D3DD2D800074411 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7E3909EC1D3E0D5A00074411 /* grass_yard.jpg */,
+				7E3909EA1D3DD2E200074411 /* ball.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,8 @@
 			files = (
 				7E3909E21D3DCF0300074411 /* LaunchScreen.storyboard in Resources */,
 				7E3909DF1D3DCF0300074411 /* Assets.xcassets in Resources */,
+				7E3909EB1D3DD2E200074411 /* ball.png in Resources */,
+				7E3909ED1D3E0D5A00074411 /* grass_yard.jpg in Resources */,
 				7E3909DD1D3DCF0300074411 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
